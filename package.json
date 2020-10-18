@@ -1,0 +1,28 @@
+{
+  "name": "pruebapracticacobrando",
+  "version": "1.0.0",
+  "description": "Prueba practica cargo de desarrollo Back End Cobrando S.A.S",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Diego Bolivar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "generate-schema": "^2.6.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "xlsx": "^0.16.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
